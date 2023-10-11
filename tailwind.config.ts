@@ -10,6 +10,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        activity: {
+          none: "#fff7ed",
+          little: "#fed7aa",
+          moderate: "#fb923c",
+          more: "#f97316",
+          high: "#ea580c",
+          "very-high": "#9a3412",
+        },
+
         primary: "hsl(var(--color-primary))",
         "primary-dark": "hsl(var(--color-primary-dark))",
         "primary-light": "hsl(var(--color-primary-light))",
