@@ -12,6 +12,7 @@
     --color-accent-dark: 269deg 100% 92%;
 
     --color-background: 0deg 0% 98%;
+    --color-border: 0deg 0% 83%;
     --color-button-text-primary: 0deg 0% 98%;
 
     --color-foreground: 0deg 0% 8%;
@@ -19,12 +20,12 @@
     --color-foreground-extra-light: 0deg 0% 40%;
 
     --color-neutral-green: 142deg 76% 36%;
-    --color-neutral-green-light: 142deg 69% 58%;
-    --color-neutral-green-dark: 143deg 64% 24%;
+    --color-neutral-green-light: 142deg 69% 72%;
+    --color-neutral-green-dark: 143deg 64% 16%;
 
     --color-neutral-red: 0deg 72% 51%;
-    --color-neutral-red-light: 0deg 91% 71%;
-    --color-neutral-red-dark: 0deg 70% 35%;
+    --color-neutral-red-light: 0deg 91% 85%;
+    --color-neutral-red-dark: 0deg 70% 40%;
 
     --color-neutral-gray: 215deg 14% 34%;
     --color-neutral-gray-light: 218deg 11% 65%;
@@ -41,6 +42,7 @@
       --color-accent-dark: 274deg 84% 21%;
 
       --color-background: 229deg 84% 5%;
+      --color-border: 217 19% 27%;
       --color-button-text-primary: 0deg 0% 98%;
 
       --color-foreground: 0deg 0% 100%;
@@ -48,12 +50,12 @@
       --color-foreground-extra-light: 0deg 0% 80%;
 
       --color-neutral-green: 142deg 76% 36%;
-      --color-neutral-green-light: 142deg 69% 58%;
-      --color-neutral-green-dark: 143deg 64% 24%;
+      --color-neutral-green-light: 142deg 69% 72%;
+      --color-neutral-green-dark: 143deg 64% 16%;
 
       --color-neutral-red: 0deg 72% 51%;
-      --color-neutral-red-light: 0deg 91% 71%;
-      --color-neutral-red-dark: 0deg 70% 35%;
+      --color-neutral-red-light: 0deg 91% 85%;
+      --color-neutral-red-dark: 0deg 70% 40%;
 
       --color-neutral-gray: 215deg 14% 34%;
       --color-neutral-gray-light: 218deg 11% 65%;
@@ -65,6 +67,7 @@
 body {
   color: hsl(var(--color-foreground));
   background-color: hsl(var(--color-background));
+  letter-spacing: 0.05em;
 }
 
 h1 {
@@ -79,11 +82,24 @@ h2 {
   line-height: 4rem;
 }
 
+h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.6rem;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+}
+
 p {
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0.05em;
 }
 
 @media (max-width: 1240px) {

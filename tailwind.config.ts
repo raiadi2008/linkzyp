@@ -27,6 +27,7 @@ const config: Config = {
         "accent-dark": "hsl(var(--color-accent-dark))",
 
         background: "hsl(var(--color-background))",
+        border: "hsl(var(--color-border))",
         "button-text-primary": "hsl(var(--color-button-text-primary))",
 
         foreground: "hsl(var(--color-foreground))",
@@ -46,7 +47,7 @@ const config: Config = {
         "neutral-gray-dark": "hsl(var(--color-neutral-gray-dark))",
       },
       maxWidth: {
-        website: "1380px",
+        website: "1360px",
       },
     },
   },
