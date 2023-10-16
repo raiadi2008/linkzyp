@@ -1,6 +1,8 @@
 import "./globals.css"
 import type { Metadata } from "next"
 import { Nunito_Sans } from "next/font/google"
+import { NextAuthProvider } from "./provider"
+import { Analytics } from "@vercel/analytics/react"
 
 const nunito_sans = Nunito_Sans({
   // weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -19,7 +21,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={nunito_sans.className}>{children}</body>
+      <body className={nunito_sans.className}>
+        <NextAuthProvider>
+          {children}
+          <Analytics />
+        </NextAuthProvider>
+      </body>
     </html>
   )
 }

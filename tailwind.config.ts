@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "sign-in-background-light": "url('../public/light-mode-waves.svg')",
+        "sign-in-background-dark": "url('../public/dark-mode-waves.svg')",
+      },
       colors: {
         activity: {
           none: "#fff7ed",
