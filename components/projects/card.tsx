@@ -21,7 +21,7 @@ export default function ProjectCard({
       <p className='mt-4 text-foreground-extra-light text-sm'>{description}</p>
       <div className='mt-8 flex justify-between items-center'>
         <ProjectPhaseBadge phase={phase} />
-        <p className='text-xs'>{Math.ceil(Math.random() * 3)} Goals</p>
+        <p className='text-xs'>2 Goals</p>
         <p className='text-xs'>website &rarr;</p>
       </div>
     </div>

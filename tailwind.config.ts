@@ -31,6 +31,7 @@ const config: Config = {
         "accent-dark": "hsl(var(--color-accent-dark))",
 
         background: "hsl(var(--color-background))",
+        "background-light": "hsl(var(--color-background-light))",
         border: "hsl(var(--color-border))",
         "button-text-primary": "hsl(var(--color-button-text-primary))",
 

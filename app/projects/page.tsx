@@ -1,3 +1,6 @@
+"use client"
+
+import AddProductPopup from "@/components/popups/add-product-popup"
 import ProjectCard from "@/components/projects/card"
 import { ProjectPhase } from "@/utils/enums"
 import { IProject } from "@/utils/types"
@@ -35,7 +38,7 @@ export default function Page() {
       title: "Founders Voice",
       description:
         "Blog on developing micro saas applications and podcasts with succesful indie hackers",
-      id: "litmus-datet895234hf-rhirs5-23fa3",
+      id: "founder-voice-datet895234hf-rhirs5-23fa3",
       logo: "https://ik.imagekit.io/linkzypapp/Social%20Media/QQ.png",
       url: "www.linkzyp.com",
       phase: ProjectPhase.LIVE,
@@ -43,12 +46,13 @@ export default function Page() {
   ]
 
   return (
-    <main className='projects-page'>
+    <main id='projects-page' className='relative'>
+      <AddProductPopup />
       <section className='mx-auto max-w-website py-8'>
         <h3 className=''>Projects</h3>
         <div className='mt-12 grid grid-cols-3 gap-8'>
           {projects.map((project) => ProjectCard(project))}
-          <div className='relative border border-dashed rounded border-border p-4 flex justify-center items-center'>
+          <div className='relative border border-dashed rounded border-border p-4 flex justify-center items-center hover:cursor-pointer'>
             <p className='text-foreground-extra-light'>+ Create Project</p>
           </div>
         </div>

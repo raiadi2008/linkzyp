@@ -12,6 +12,8 @@
     --color-accent-dark: 269deg 100% 92%;
 
     --color-background: 0deg 0% 98%;
+    --color-background-light: 0deg 0% 94%;
+
     --color-border: 0deg 0% 83%;
     --color-button-text-primary: 0deg 0% 98%;
 
@@ -42,6 +44,8 @@
       --color-accent-dark: 274deg 84% 21%;
 
       --color-background: 229deg 84% 5%;
+      --color-background-light: 222deg 47% 11%;
+
       --color-border: 217 19% 27%;
       --color-button-text-primary: 0deg 0% 98%;
 
